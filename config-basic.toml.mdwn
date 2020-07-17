@@ -1,0 +1,8 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "duffney.io"
+theme = "hello-friend-ng"
+
+[params.logo]
+  logoText     = "_ cd /home/"
+  logoHomeLink = "/"
