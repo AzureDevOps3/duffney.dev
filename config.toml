@@ -51,7 +51,9 @@ paginate     = 10
   path = "/img/portrait.jpg"
   alt = "Portrait"
 
-
+[permalinks]
+  posts = "/:title"
+  
   # Social icons
   [[params.social]]
     name = "twitter"
