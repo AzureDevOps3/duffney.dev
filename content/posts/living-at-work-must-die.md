@@ -7,6 +7,8 @@ type:
 - post
 - posts
 title: Living at work must die
+tags: ["powershell","ansible"]
+categories: ["essays"]
 weight: 10
 series:
 - Hugo 101
