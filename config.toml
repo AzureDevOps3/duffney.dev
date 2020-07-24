@@ -34,14 +34,14 @@ paginate     = 10
 
 [languages]
   [languages.en]
-    title = "duffney.io"
+    title = "duffney.io (dev)"
     subtitle = "A simple theme for Hugo"
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
-      logoText = "_ cd /duffney.io"
+      logoText = "_ duffney.io"
       logoHomeLink = "/"
     # or
     #
@@ -53,6 +53,7 @@ paginate     = 10
 
 [permalinks]
   posts = "/:title"
+  category = "/:slug/"
   
   # Social icons
   [[params.social]]
@@ -87,12 +88,18 @@ paginate     = 10
     name       = "essays"
     url        = "/categories/essays/"
 
-  [[menu.main]]
-    identifier = "links"
-    name       = "links"
-    url        = "/links"
-  
-  [[menu.main]]
-    identifier = "tweets"
-    name       = "tweets"
-    url        = "/tweets"
+[[menu.main]]
+  identifier = "links"
+  name       = "links"
+  url        = "/links"
+
+[[menu.main]]
+  identifier = "newsletter"
+  name       = "newsletter"
+  url        = "/newsletter"
+
+[[menu.main]]
+  identifier = "tweets"
+  name       = "tweets"
+  url        = "/tweets"
+
